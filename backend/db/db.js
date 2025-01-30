@@ -4,7 +4,7 @@ const db = async () => {
   try {
     mongoose.set("strictQuery", false);
     await mongoose.connect(
-      "mongodb+srv://ankitwork0812:SxYQcnRkXgL5FuSB@cluster0.9vmho.mongodb.net/"
+      "mongodb+srv://ankitwork0812:ns6E7lVudAifvGOB@cluster0.9vmho.mongodb.net/"
     );
     console.log("Db Connected");
   } catch (error) {
